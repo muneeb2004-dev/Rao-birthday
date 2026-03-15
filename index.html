@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy 22nd Birthday!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <div class="bg-orb orb-c"></div>
+
+    <main>
+      <section class="hero section reveal">
+        <div class="hero-text">
+          <p class="eyebrow">22 Years Of Greatness</p>
+          <h1>
+            Happy Birthday, <span id="friendName">RAO ZAIN</span>
+          </h1>
+          <p class="lead">
+            Today we celebrate your smile, your kindness, your ambition, and all
+            the bright energy you bring into every room.
+          </p>
+          <div class="cta-row">
+            <a href="#about" class="btn btn-primary">Read About Him</a>
+            <button id="confettiBtn" class="btn btn-ghost">Launch Confetti</button>
+          </div>
+        </div>
+
+        <figure class="hero-photo-wrap" id="photoWrap">
+          <img
+            src="WhatsApp Image 2026-03-16 at 1.20.42 AM.jpeg"
+            alt="Birthday portrait"
+            class="hero-photo"
+            id="friendPhoto"
+          />
+          <figcaption>Legend Mode: ON</figcaption>
+        </figure>
+      </section>
+
+      <section id="about" class="about section reveal">
+        <h2>About Him</h2>
+        <p>
+          A calm soul with a fearless heart. He is the kind of person who inspires
+          without trying, leads with humility, and makes ordinary days unforgettable.
+        </p>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <h3>22</h3>
+            <p>Years of becoming better every day</p>
+          </article>
+          <article class="stat-card">
+            <h3>100%</h3>
+            <p>Loyal friend and pure positive vibe</p>
+          </article>
+          <article class="stat-card">
+            <h3>Infinity</h3>
+            <p>Potential to achieve every dream</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="quotes section reveal">
+        <h2>Quotes That Feel Like Him</h2>
+        <div class="quote-grid">
+          <blockquote>
+            "Some people make the world brighter just by being in it."
+          </blockquote>
+          <blockquote>
+            "Grace in the heart, fire in the soul, and kindness in every action."
+          </blockquote>
+          <blockquote>
+            "Real strength is being gentle and unstoppable at the same time."
+          </blockquote>
+          <blockquote>
+            "The future belongs to those who keep showing up with courage."
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="timeline section reveal">
+        <h2>22nd Birthday Wishes Timeline</h2>
+        <div class="timeline-wrap">
+          <div class="time-item">
+            <span>Morning</span>
+            <p>Wake up to gratitude, smiles, and your favorite music.</p>
+          </div>
+          <div class="time-item">
+            <span>Afternoon</span>
+            <p>Celebrate with laughs, memories, and people who love you.</p>
+          </div>
+          <div class="time-item">
+            <span>Night</span>
+            <p>Make a wish, look at the stars, and own your next chapter.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final section reveal">
+        <h2>To The Birthday Star</h2>
+        <p>
+          May this year bring you bigger wins, deeper peace, unforgettable
+          adventures, and moments that remind you how loved you are.
+        </p>
+        <p class="signature">Happy 22nd Birthday.</p>
+      </section>
+    </main>
+
+    <canvas id="confettiCanvas"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
